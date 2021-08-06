@@ -1,0 +1,46 @@
+.f-12 {
+	font-size: 12px;
+}
+.f-13 {
+	font-size: 13px;
+}
+.f-14 {
+	font-size: 14px;
+}
+.f-17 {
+	font-size: 17px;
+}
+.f-22 {
+	font-size: 22px;
+}
+
+.card a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+}
+.card a:hover {
+	color: rgb(245, 112, 35);
+}
+.product-name {
+	font-weight: bold;
+	max-width: 340px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.product-price {
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	color: rgb(245, 112, 35);
+}
+.datetime {
+	line-height: 1.45;
+	margin-bottom: 3px;
+	padding-top: 7px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.38);
+}

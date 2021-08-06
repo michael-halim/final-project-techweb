@@ -1,0 +1,59 @@
+.f-12 {
+	font-size: 12px;
+}
+.f-13 {
+	font-size: 13px;
+}
+.f-14 {
+	font-size: 14px;
+}
+.f-17 {
+	font-size: 17px;
+}
+.f-22 {
+	font-size: 22px;
+}
+
+.header-btn {
+	display: inline-block;
+	box-sizing: border-box;
+	line-height: 20px;
+	font-weight: 600;
+	font-size: 1rem;
+	padding-bottom: 16px;
+	border-bottom: solid rgba(100, 100, 100, 0.7) 1px;
+}
+.header-btn a {
+	text-decoration: none;
+	color: rgba(50, 50, 50, 0.5);
+	padding: 16px 24px;
+	height: 52px;
+}
+.header-btn a:hover {
+	color: rgb(66, 181, 73);
+}
+.btn-active {
+	border-bottom: solid rgb(66, 181, 73) 1px;
+	color: rgb(66, 181, 73);
+}
+.info-toko input[type=text]{
+	border: solid rgba(75, 75, 75, 0.5) 1px;
+	border-radius: 8px;
+	width: 100%;
+}
+.textarea {
+	width: 100%;
+	outline: none;
+	resize: none;
+	color: rgb(49, 53, 59);
+	border: 1px solid rgb(229, 231, 233);
+	border-radius: 8px;
+	padding: 4px;
+}
+.btn-simpan {
+	font-weight: bold;
+	background: rgb(3, 172, 14);
+	width: 17%;
+	height: 40px;
+	border-radius: 8px;
+}

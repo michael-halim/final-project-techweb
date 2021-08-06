@@ -1,0 +1,291 @@
+.f-12 {
+	font-size: 12px;
+}
+.f-13 {
+	font-size: 13px;
+}
+.f-14 {
+	font-size: 14px;
+}
+.f-17 {
+	font-size: 17px;
+}
+.f-22 {
+	font-size: 22px;
+}
+
+/*Hide scroll bar*/
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 0px;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+	background: #FF0000;
+}
+
+/*HOME*/
+.glow {
+	border: 2px solid #dadada;
+	border-radius: 7px;
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+.card-content {
+	padding: 15px;
+}
+.card-content p {
+	font-family: "Nunito sans", sans-serif;
+	font-size: 14px;
+}
+.card-content div {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/*DISKUSI*/
+.card a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+}
+.card a:hover {
+	color: rgb(245, 112, 35);
+}
+.product-name {
+	font-weight: bold;
+	max-width: 340px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.product-price {
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	color: rgb(245, 112, 35);
+}
+.datetime {
+	line-height: 1.45;
+	margin-bottom: 3px;
+	padding-top: 7px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.38);
+}
+
+/*ADD PRODUCT*/
+.add-image-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+.add-image-container a {
+	max-width: 200px;
+	height: 200px;
+	flex-grow: 1;
+	background-color: rgba(50,50,50, 0.8);
+	border: dashed rgba(35,35,35, 0.7) 2px;
+	border-radius: 8px;
+	margin: 1%;
+	text-align: center;
+	padding-top: 35px;
+	font-family: sans-serif;
+	color: rgba(35,35,35, 0.5);
+	text-decoration: none;
+}
+input[type=text], select {
+	width: 100%;
+	padding: 6px 20px;
+	/*margin: 8px 0;*/
+	display: inline-block;
+	border: 1px solid rgba(80,80,80, 0.7);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.radio-btn {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	border: 2px solid rgb(159, 166, 176);
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+}
+.textarea {
+	width: 100%;
+	outline: none;
+	resize: none;
+	color: rgb(49, 53, 59);
+	border: 1px solid rgb(229, 231, 233);
+	border-radius: 8px;
+	padding: 4px;
+}
+.box-harga {
+	height: 40px;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	flex: 1 1 0%;
+	position: relative;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(229, 231, 233);
+}
+.rp {
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 22px;
+	white-space: nowrap;
+	display: flex;
+	align-self: stretch;
+	align-items: center;
+	padding-left: 12px;
+	background-color: rgb(243, 244, 245);
+	padding-right: 12px;
+}
+.footer-btn input{
+	min-width: 160px;
+}
+
+/*PENJUALAN*/
+.navbar-penjualan {
+	display:flex;
+}
+.filter {
+	margin-right: 8px;
+}
+.search-bar {
+	border-radius: 8px;
+	display: flex;
+	flex-grow: inherit;
+	align-items: stretch;
+	overflow: hidden;
+	width: 100%;
+	height: 40px;
+	background-color: rgb(255, 255, 255);
+	flex-direction: row-reverse;
+	color: rgb(49, 53, 59);
+	position: relative;
+}
+.search-input {
+	width: 100%;
+	color: rgba(49, 53, 59, 0.96);
+	background-color: transparent;
+	font-size: 14px;
+	border: none;
+}
+.search-btn {
+	border: none;
+	outline: none;
+	position: relative;
+	transition: background-color 280ms ease 0s;
+	width: 40px;
+	background-color: rgb(243, 244, 245);
+	flex: 0 0 40px;
+}
+.dropdown-menu {
+	cursor: pointer;
+	width: 100%;
+	display: flex;
+	position: relative;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 10px 8px 10px 16px;
+	height: 40px;
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
+	font-size: 1rem;
+	letter-spacing: 0px;
+	min-width: 100px;
+	border: 1px solid rgb(229, 231, 233);
+	color: rgb(49, 53, 59);
+}
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display:none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+	display:block;
+}
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+/*SETTINGS*/
+.header-btn {
+	display: inline-block;
+	box-sizing: border-box;
+	line-height: 20px;
+	font-weight: 600;
+	font-size: 1rem;
+	padding-bottom: 16px;
+	border-bottom: solid rgba(100, 100, 100, 0.7) 1px;
+}
+.header-btn a {
+	text-decoration: none;
+	color: rgba(50, 50, 50, 0.5);
+	padding: 16px 24px;
+	height: 52px;
+}
+.header-btn a:hover {
+	color: rgb(66, 181, 73);
+}
+.btn-active {
+	border-bottom: solid rgb(66, 181, 73) 1px;
+	color: rgb(66, 181, 73);
+}
+.info-toko input[type=text]{
+	border: solid rgba(75, 75, 75, 0.5) 1px;
+	border-radius: 8px;
+	width: 100%;
+}
+.textarea {
+	width: 100%;
+	outline: none;
+	resize: none;
+	color: rgb(49, 53, 59);
+	border: 1px solid rgb(229, 231, 233);
+	border-radius: 8px;
+	padding: 4px;
+}
+.btn-simpan {
+	font-weight: bold;
+	background: rgb(3, 172, 14);
+	width: 17%;
+	height: 40px;
+	border-radius: 8px;
+}
+

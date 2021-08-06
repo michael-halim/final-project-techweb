@@ -1,0 +1,102 @@
+.f-12 {
+	font-size: 12px;
+}
+.f-13 {
+	font-size: 13px;
+}
+.f-14 {
+	font-size: 14px;
+}
+.f-17 {
+	font-size: 17px;
+}
+.f-22 {
+	font-size: 22px;
+}
+
+.add-image-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+.add-image-container a {
+	max-width: 200px;
+	height: 200px;
+	flex-grow: 1;
+	background-color: rgba(50,50,50, 0.8);
+	border: dashed rgba(35,35,35, 0.7) 2px;
+	border-radius: 8px;
+	margin: 1%;
+	text-align: center;
+	padding-top: 35px;
+	font-family: sans-serif;
+	color: rgba(35,35,35, 0.5);
+	text-decoration: none;
+}
+input[type=text], select {
+	width: 100%;
+	padding: 6px 20px;
+	/*margin: 8px 0;*/
+	display: inline-block;
+	border: 1px solid rgba(80,80,80, 0.7);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.radio-btn {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	border: 2px solid rgb(159, 166, 176);
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+}
+.textarea {
+	width: 100%;
+	outline: none;
+	resize: none;
+	color: rgb(49, 53, 59);
+	border: 1px solid rgb(229, 231, 233);
+	border-radius: 8px;
+	padding: 4px;
+}
+.box-harga {
+	height: 40px;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	flex: 1 1 0%;
+	position: relative;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(229, 231, 233);
+}
+.rp {
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 22px;
+	white-space: nowrap;
+	display: flex;
+	align-self: stretch;
+	align-items: center;
+	padding-left: 12px;
+	background-color: rgb(243, 244, 245);
+	padding-right: 12px;
+}
+.footer-btn input{
+	min-width: 160px;
+}
+
+/*Hide scroll bar*/
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 0px;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+	background: #FF0000;
+}

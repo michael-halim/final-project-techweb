@@ -1,0 +1,75 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:active {
+    color: tomato;
+    text-decoration: none;
+}
+a:visited {
+    color: tomato;
+}
+
+.card-title, .card-text {
+    color: black;
+}
+
+.fa-star {
+    color: grey;
+}
+
+.fa-star.checked {
+    color: orange;
+}
+
+#category {
+    text-align: center;
+}
+.best-seller-container{
+    height: 300px;
+}
+
+#best-seller-image{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+#best-seller-desc{
+    height: 100px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    border-radius: 15px;
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+}
+
+#category-1-image{
+    width: 100%;
+    height: 150px;
+}
+
+.card {
+    height: 410px;
+}
+
+.card-img-top {
+    width: auto;
+    min-height: 150px;
+    max-height: 200px;
+}

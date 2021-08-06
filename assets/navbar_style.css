@@ -1,0 +1,28 @@
+/* untuk hover dropdown */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+		display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;
+	}
+	.navbar .nav-item:hover .nav-link {
+		opacity: 0.5;
+	}
+	.navbar .dropdown-menu.fade-down {
+		top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%;
+	}
+	.navbar .nav-item:hover .dropdown-menu {
+		transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg);
+	}
+}
+/* untuk menghilangkan arrow dropdown */
+.dropdown-toggle::after {
+	display: none;
+}
+/* untuk garis vertikal */
+.vl {
+	border-left: 1.5px solid grey;
+	opacity: 0.5;
+}
+
+.nav-item {
+	padding: 0px 15px;
+}

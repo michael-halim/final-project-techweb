@@ -1,0 +1,34 @@
+.f-12 {
+	font-size: 12px;
+}
+.f-13 {
+	font-size: 13px;
+}
+.f-14 {
+	font-size: 14px;
+}
+.f-17 {
+	font-size: 17px;
+}
+.f-22 {
+	font-size: 22px;
+}
+
+.glow {
+	border: 2px solid #dadada;
+	border-radius: 7px;
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+.card-content {
+	padding: 15px;
+}
+.card-content p {
+	font-family: "Nunito sans", sans-serif;
+	font-size: 14px;
+}
+.card-content div {
+	font-size: 24px;
+	font-weight: bold;
+}

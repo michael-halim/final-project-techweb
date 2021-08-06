@@ -1,0 +1,12 @@
+.sidenav {
+	height: auto;
+	min-width: 230px;
+}
+.sidenav-buttons a {
+	text-decoration: none;
+	color: #818181;
+	display: block;
+}
+.sidenav-buttons a:hover {
+	opacity: 0.5;
+}
