@@ -1,7 +1,5 @@
 # **Final Project Technology Web**
 ## Create Content Management System (CMS) 
-<br/>
-
 ### Create Tokopedia Clone with less feature than the original
 ### Created using PHP, Jquery
 | # | Feature |
